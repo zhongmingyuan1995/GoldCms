@@ -15,6 +15,9 @@ public String getContent() {
 public void setContent(String content) {
 	this.content = content;
 }
+public Enterprise_Introduction(String content) {
+	this.content = content;
+}
    
    
 }

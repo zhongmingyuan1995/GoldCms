@@ -186,9 +186,9 @@
                           </li>
                       </ul>
                   </li>
-                  <li class=""><a href="html/about.html" class="" >关于我们</a></li>
-                  <li class=""><a href="html/join.html" class="" >加入我们</a></li>
-                  <li class=""><a href="html/contact.html" class="" >联系我们</a></li>
+                  <li class=""><a href="MyJsp.jsp" class="" >关于我们</a></li>
+                  <li class=""><a href="#" class="" >加入我们</a></li>
+                  <li class=""><a href="#" class="" >联系我们</a></li>
                   <li class="am-parent">
                     <a href="" class="nav-icon nav-icon-globe" >Language</a>
                       <ul class="am-menu-sub am-collapse  ">

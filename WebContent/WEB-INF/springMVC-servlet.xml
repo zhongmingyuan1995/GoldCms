@@ -15,18 +15,12 @@
 	<!-- 注解的驱动 -->
 	<mvc:annotation-driven/>
 	<!-- 配置扫描器 -->
-    <context:component-scan base-package="com.mps.*"/>
-     <bean name="/image" class="com.dufyun.springmvc.web.controller.ImageGenController"/>
+    <context:component-scan base-package="com.cms.*"/>
 	<!-- 设置分段文件上传解析器 
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">  
     	<property name="maxUploadSize" value="10485760000" />  
 	</bean>
 	-->
 	<!-- viewResolver -->
-        <!-- 支持Servlet 、jsp 视图解析-->
-        <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        	<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
-        	<property name="prefix" value="/WEB-INF/jsp/" />
-        	<property name="suffix" value=".jsp" />
-        </bean> 
+        <!-- 支持Servlet 、jsp 视图解析-->   
 </beans>
